@@ -1,0 +1,8 @@
+#Time period for which the data is given
+
+SELECT 
+min(order_purchase_timestamp) as Min_order_date, 
+max(order_purchase_timestamp) as Max_order_date 
+FROM 
+`sqldemo-381616.Target_BusinessCase.Orders`;
+
